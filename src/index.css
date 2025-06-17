@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prose {
+  overflow-x: hidden !important;
+  word-break: break-word !important;
+  white-space: normal !important;
+  max-width: 100% !important;
+}
+
+.prose img {
+  max-width: 100% !important;
+  height: auto !important;
+  display: block !important;
+}
+
+.prose pre, .prose code {
+  white-space: pre-wrap !important;
+  overflow-wrap: break-word !important;
+}
