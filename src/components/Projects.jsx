@@ -4,7 +4,7 @@ import { ExternalLink, Github } from 'lucide-react';
 const filters = [
   { id: 'all', label: 'All' },
   { id: 'web', label: 'Web' },
-  { id: 'mobile', label: 'Mobile' },
+  { id: 'UI/UX', label: 'UI/UX' },
   { id: 'desktop', label: 'Desktop' },
   { id: 'graphics', label: 'Graphics' },
   // add other categories as needed
@@ -73,6 +73,26 @@ const projects = [
     image: 'ecommerce.png',
     liveUrl: null,
     repoUrl: 'https://github.com/susangautam/ecommerce',
+    featured: false,
+  },
+  {
+    id: 9,
+    title: 'Travel APP',
+    description: 'Travel Mobile APP UI',
+    category: 'UI/UX',
+    image: 'TRAVEL-app.png',
+    liveUrl: 'https://www.figma.com/design/p21WAEqHlz70sQxjoLvBY7/smart-app?node-id=1-11&t=dv71PqwbWa8o8n7N-1',
+    repoUrl: null,
+    featured: false,
+  },
+  {
+    id: 10,
+    title: 'Portfolio Site',
+    description: 'Portfolio Site UI',
+    category: 'UI/UX',
+    image: 'portfolio-ui.png',
+    liveUrl: 'https://www.figma.com/design/KQGmujYB9dIBSUSAQ0CtMG/Untitled?node-id=0-1&t=S28CCUfawM8f7r6p-1',
+    repoUrl: null,
     featured: false,
   },
 ];
