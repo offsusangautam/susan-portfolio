@@ -5,7 +5,7 @@ const filters = [
   { id: 'all', label: 'All' },
   { id: 'web', label: 'Web' },
   { id: 'UI/UX', label: 'UI/UX' },
-  { id: 'desktop', label: 'Desktop' },
+  // { id: 'desktop', label: 'Applications' },
   { id: 'graphics', label: 'Graphics' },
   // add other categories as needed
 ];
@@ -14,15 +14,15 @@ const projects = [
  
   
 
-  // Your second list projects mapped here (adjust category & add repoUrl/liveUrl if applicable)
+  //
   {
     id: 3,
     title: 'Interior Designing',
     description: 'A detailed project showcasing modern and creative interior designs.',
-    category: 'desktop', // assuming desktop or web? Change as needed
+    category: 'web', 
     image: 'interior.jpg',
     liveUrl: null,
-    repoUrl: 'https://github.com/susangautam/Interior-Design-Project',
+    repoUrl: 'https://github.com/offsusangautam/Interior-Designing',
     featured: false,
   },
   {
@@ -32,7 +32,7 @@ const projects = [
     category: 'web',
     image: 'web.jpg',
     liveUrl: null,
-    repoUrl: 'https://github.com/susangautam/Web-Dev-Challange',
+    repoUrl: 'https://github.com/offsusangautam/web-dev-challange',
     featured: false,
   },
   {
@@ -52,7 +52,7 @@ const projects = [
     category: 'web',
     image: 'alime.png',
     liveUrl: null,
-    repoUrl: 'https://github.com/susangautam/Alime-project',
+    repoUrl: 'https://github.com/offsusangautam/Alime-Project',
     featured: false,
   },
   {
@@ -72,7 +72,7 @@ const projects = [
     category: 'web',
     image: 'ecommerce.png',
     liveUrl: null,
-    repoUrl: 'https://github.com/susangautam/ecommerce',
+    repoUrl: 'https://github.com/offsusangautam/E-commerce',
     featured: false,
   },
   {

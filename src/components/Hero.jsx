@@ -75,7 +75,7 @@ const Hero = () => {
           {/* Social Media Icons with Framer Motion Animation */}
           <div className="flex justify-center space-x-6 mb-12 animate-slide-up delay-400">
             {[
-              { icon: Github, href: 'https://github.com/susangautam' },
+              { icon: Github, href: 'https://github.com/offsusangautam' },
               { icon: Linkedin, href: 'https://www.linkedin.com/in/susangautam/' },
               { icon: Mail, href: 'mailto:off.susangautam@gmail.com' }
             ].map(({ icon: Icon, href }, index) => (
