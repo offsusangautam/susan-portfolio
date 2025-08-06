@@ -43,7 +43,7 @@ const projects = [
     image: 'graphics-designing.png',
     liveUrl: 'https://www.behance.net/susangautam1',
     repoUrl: null,
-    featured: true,
+    featured: false,
   },
   {
     id: 6,
@@ -74,6 +74,16 @@ const projects = [
     liveUrl: null,
     repoUrl: 'https://github.com/offsusangautam/E-commerce',
     featured: false,
+  },
+  {
+    id: 11,
+    title: 'NEB GPA Calculator',
+    description: 'GPA Calculator for Grade 10,11,12 students',
+    category: 'web',
+    image: 'neb.png',
+    liveUrl: 'https://gpafinder.susangautam.com.np/',
+    repoUrl: null,
+    featured: true,
   },
   {
     id: 9,
