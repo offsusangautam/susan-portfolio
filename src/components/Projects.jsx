@@ -5,7 +5,7 @@ const filters = [
   { id: 'all', label: 'All' },
   { id: 'web', label: 'Web' },
   { id: 'UI/UX', label: 'UI/UX' },
-  // { id: 'desktop', label: 'Applications' },
+  { id: 'applications', label: 'Applications' },
   { id: 'graphics', label: 'Graphics' },
   // add other categories as needed
 ];
@@ -15,6 +15,26 @@ const projects = [
   
 
   //
+  {
+    id: 1,
+    title: 'Roman to Nepali Converter',
+    description: 'A simple web app to convert Romanized Nepali text to Devanagari script.',
+    category: 'applications', 
+    image: 'romantonepali.png',
+    liveUrl: 'https://romantonepali.susangautam.com.np/',
+    repoUrl:null,
+    featured: false,
+  },
+  {
+    id: 2,
+    title: 'GPA CALCULATOR',
+    description: 'A GPA calculator app for grade 10,11,12 students to calculate their GPA easily.',
+    category: 'applications', 
+    image: 'gpacalculator.png',
+    liveUrl: 'https://gpafinder.susangautam.com.np/',
+    repoUrl:null,
+    featured: false,
+  },
   {
     id: 3,
     title: 'Interior Designing',
@@ -59,7 +79,7 @@ const projects = [
     id: 7,
     title: 'Story AI Project',
     description: 'AI tool for generating short stories.',
-    category: 'web',
+    category: 'applications',
     image: 'story ai.png',
     liveUrl: 'https://story-ai-0427.netlify.app/',
     repoUrl: null,
@@ -74,16 +94,6 @@ const projects = [
     liveUrl: null,
     repoUrl: 'https://github.com/offsusangautam/E-commerce',
     featured: false,
-  },
-  {
-    id: 11,
-    title: 'NEB GPA Calculator',
-    description: 'GPA Calculator for Grade 10,11,12 students',
-    category: 'web',
-    image: 'neb.png',
-    liveUrl: 'https://gpafinder.susangautam.com.np/',
-    repoUrl: null,
-    featured: true,
   },
   {
     id: 9,
